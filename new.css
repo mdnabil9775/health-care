@@ -122,7 +122,7 @@
 .sec{
     height: 80vh;
     align-items: center;
-    background-image: url('/pic/service.jpg.png');
+    background-image: url('./pic/service.png.png');
     margin-top: 0px;
     
 }
