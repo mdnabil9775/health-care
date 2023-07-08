@@ -67,3 +67,62 @@
     background-color: white;
     border: 3px solid black;
 }
+/* about section */
+.about-h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.about-btn{
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    color: antiquewhite;
+    border: none;
+    margin-top: 20px;
+}
+.about-h1-2{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.about-back{
+    background-image: url('./pic/white.jpg'), linear-gradient(45deg, rgb(1, 174, 1), white);
+}
+/* service sec */
+.box-h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.box-1{
+    width: 250px;
+    height: 250px;
+    box-shadow: 4px 4px 10px gray;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 170px;
+}
+.full-box{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-end{
+    position: inherit;
+}
+.sec{
+    height: 80vh;
+    align-items: center;
+    background-image: url('/pic/service.jpg.png');
+    margin-top: 0px;
+    
+}
