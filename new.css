@@ -3,6 +3,9 @@
     padding: 0px;
 }
 .header{
+    position: sticky;
+    top: 0px;
+
     background-color: rgb(52, 4, 4);
     display: flex;
     color: antiquewhite;
@@ -10,7 +13,7 @@
     align-items: center;
     justify-content: space-around;
     height: 80px;
-    
+    width: 100%;
 }
 .menu{
     display: flex;
@@ -123,6 +126,62 @@
     height: 80vh;
     align-items: center;
     background-image: url('./pic/service.png.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 0px;
     
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .header{
+        background-color: #059862;
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        width: 100%;
+    }
+    .item{
+        border: 5px solid #059862;
+        font-size: 16px;
+        margin-right: 3px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        flex: 1;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .btn{
+     margin-top: 50px;
+    }
+    .about-back div{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .about-pic img{
+        width: 100%;
+        height: 70%;
+    }
+    .sec{
+        width: 100%;
+        height: 100%;
+        background-color: aliceblue;
+        background-image: none;
+
+    }
+    .box-1{
+        height: 450;
+        text-align: center;
+
+
+    }
+    .full-box{
+        flex-direction: column;
+        margin: auto;
+        margin-left: 110px;
+    }
 }
